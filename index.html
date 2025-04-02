@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description"
+              content="KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices. Accepted @ ICIAP 2025.">
+        <meta name="keywords" content="Industrial Anomaly Detection, Efficient Deep Learning, Visual Foundation Models, Embedded Systems.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+              rel="stylesheet">
+
+        <link rel="stylesheet" href="./static/css/bulma.min.css">
+        <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+        <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+        <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        <link rel="stylesheet" href="./static/css/index.css">
+        <link rel="icon" href="./static/images/intelligo.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script defer src="./static/js/fontawesome.all.min.js"></script>
+        <script src="./static/js/bulma-carousel.min.js"></script>
+        <script src="./static/js/bulma-slider.min.js"></script>
+        <script src="./static/js/index.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+                    <a class="navbar-item" target="_blank" href="https://capogrosso.eu">
+                        <span class="icon">
+                            <i class="fas fa-home"></i>
+                        </span>
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                          More Research
+                        </a>
+                        <div class="navbar-dropdown">
+                          <a class="navbar-item" target="_blank" href="https://intelligolabs.github.io/in_and_out/">
+                            In&Out (VISAPP 2024)
+                          </a>
+                          <a class="navbar-item" target="_blank" href="https://intelligolabs.github.io/DIAG/">
+                            DIAG (CBMI 2024)
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Title, authors, institution, links. -->
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container is-max-desktop">
+                    <div class="columns is-centered">
+                        <div class="column has-text-centered">
+                            <h1 class="title is-1 publication-title">KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices</h1>
+                            <div class="is-size-5 publication-authors">
+                                <span class="author-block">
+                                    <a target="_blank" href="https://uzairrj.github.io">Uzair Khan</a>,
+                                </span>
+                                <span class="author-block">
+                                    <a target="_blank" href="https://www.dimi.univr.it/?ent=persona&id=59&lang=en">Franco Fummi</a>,
+                                </span>
+                                <span class="author-block">
+                                    <a target="_blank" href="https://www.capogrosso.eu">Luigi Capogrosso</a>
+                                </span>
+                            </div>
+
+                            <div class="is-size-5 publication-authors">
+                              <span class="author-block">
+                                  Department of Engineering for Innovation Medicine, University of Verona, Italy
+                              </span>
+                            </div>
+
+                            <div class="column has-text-centered">
+                                <div class="publication-links">
+                                    <!-- Proceedings link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="" class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="fas fa-file-pdf"></i>
+                                            </span>
+                                            <span>Paper</span>
+                                        </a>
+                                    </span>
+                                    <!-- arXiv link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="" class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="ai ai-arxiv"></i>
+                                            </span>
+                                            <span>arXiv</span>
+                                        </a>
+                                    </span>
+                                    <!-- Code link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="https://github.com/intelligolabs/KairosAD" class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="fab fa-github"></i>
+                                            </span>
+                                        <span>Code</span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="columns is-centered">
+                                <div class="column has-text-centered">
+                                    <span class="tag is-success is-primary is-large">🎉 Accepted @ ICIAP 2025 🎉</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaser. -->
+        <section class="hero teaser">
+            <div class="container is-max-desktop">
+                <div class="hero-body has-text-centered">
+                    <img src="./static/images/teaser.png" alt="DIAG abstract" type="image/png" style="width: 70%; height: 70%;">
+                    <h6 class="subtitle is-6 has-text-centered">
+                        Comparisons of different anomaly detection methods in terms of I-AUROC (vertical axis), inference time (horizontal axis), and the ratios of parameter numbers (circle radius), on the MVTec-AD dataset.
+                        Our KairosAD achieves competitive I-AUROC results, while having 78% less parameters with respect to SimpleNet, <i>i.e.,</i>, the model that achieves the highest AUROC. 
+                        Instead, with respect to STLM, which represents the state-of-the-art of efficient deep learning method for anomaly detection, KairosAD has 35% of fewer parameters, achieves 4x speedup performance in terms of inference time, with an increase in I-AUROC performance as well.
+                    </h6>
+                </div>
+            </div>
+        </section>
+
+        <!-- Abstract. -->
+        <section class="section">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">Abstract</h2>
+                        <div class="content has-text-justified">
+                            <p>
+                                In the era of intelligent manufacturing, anomaly detection has become essential for maintaining quality control on modern production lines.
+                                However, while many existing models show promising performance, they are often too large, computationally demanding, and impractical to deploy on resource-constrained embedded devices that can be easily installed on the product lines of Small and Medium Enterprises (SMEs).
+                                To bridge this gap, we present KairosAD, a novel supervised approach that uses the power of the Mobile Segment Anything Model (MobileSAM) for image-based anomaly detection.
+                                KairosAD has been evaluated on the two well-known industrial anomaly detection datasets, <i>i.e.,</i>, MVTec-AD and ViSA.
+                                The results show that KairosAD requires 78% fewer parameters and boasts a 4$\times{}$ faster inference time compared to the leading state-of-the-art model, while maintaining comparable AUROC performance.
+                                We deployed KairosAD on two embedded devices, the NVIDIA Jetson NX, and NVIDIA Jetson AGX.
+                                Finally, KairosAD was successfully installed and tested on the real production line of the Industrial Computer Engineering (ICE) Laboratory at the University of Verona.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Citation. -->
+        <section class="section" id="BibTeX">
+            <div class="container is-max-desktop content">
+                <h2 class="title">BibTeX</h2>
+<pre><code>TBA.
+</code></pre>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <a class="icon-link" target="_blank" href="https://github.com/luigicapogrosso" class="external-link" disabled>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-8">
+                        <div class="content">
+                            <p>
+                                This website is licensed under a <a rel="license" target="_blank"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                            </p>
+                            <p>
+                                The source code is based on <a target="_blank" href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
