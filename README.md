@@ -1,12 +1,13 @@
 # KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices #
 
-Official implementation of the paper [KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices]() accepted at the 23rd International Conference on Image Analysis and Processing (ICIAP 2025).
+Official implementation of the paper [KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices](https://intelligolabs.github.io/KairosAD/) accepted at the 23rd International Conference on Image Analysis and Processing (ICIAP 2025).
 
 
 ## Installation ##
 
 **1. Repository setup:**
 * `$ git clone --recurse-submodules https://github.com/intelligolabs/KairosAD`
+
 Or, if you have already has already cloned the repo:
 * `$ git submodule update --init --recursive`
 * `$ cd KairosAD`
@@ -42,3 +43,16 @@ Uzair Khan, Franco Fummi, Luigi Capogrosso
 *Department of Engineering for Innovation Medicine, University of Verona, Italy*
 
 `name.surname@univr.it`
+
+
+## Citation ##
+
+If you use [**KairosAD**](https://arxiv.org/abs/2505.24334), please, cite the following paper:
+```
+@Article{khan2025kairosad,
+  title   = {{KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices}},
+  author  = {Khan, Uzair and Fummi, Franco and Capogrosso, Luigi},
+  journal = {arXiv preprint arXiv:2505.24334},
+  year    = {2025}
+}
+```
