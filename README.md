@@ -47,12 +47,13 @@ Uzair Khan, Franco Fummi, Luigi Capogrosso
 
 ## Citation ##
 
-If you use [**KairosAD**](https://arxiv.org/abs/2505.24334), please, cite the following paper:
+If you use [**KairosAD**](https://link.springer.com/chapter/10.1007/978-3-032-10185-3_4), please, cite the following paper:
 ```
-@Article{khan2025kairosad,
-  title   = {{KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices}},
-  author  = {Khan, Uzair and Fummi, Franco and Capogrosso, Luigi},
-  journal = {arXiv preprint arXiv:2505.24334},
-  year    = {2025}
+@InProceedings{Khan2025,
+  author    = {Khan, Uzair and Fummi, Franco and Capogrosso, Luigi},
+  booktitle = {23rd International Conference on Image Analysis and Processing (ICIAP)},
+  title     = {{KairosAD: A SAM-Based Model for Industrial Anomaly Detection on Embedded Devices}},
+  year      = {2025},
+  doi       = {10.1007/978-3-032-10185-3_4},
 }
 ```
